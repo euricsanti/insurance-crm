@@ -1,0 +1,15 @@
+#tasknote_form #tasknote{
+    width:50%;
+}
+
+#add_payment .form-group, #edit_payment .form-group{
+    width:50%;
+}
+
+.site_title span{
+    font-size:20px;
+}
+
+#position_fixed{
+    position:fixed;
+}
