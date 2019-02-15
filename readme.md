@@ -29,16 +29,23 @@ This one is  designed to be opened and closed by the cashier, every Open/close f
 management tracking movements of daily income/outcome. If an user opens the POS, no other can use it while it has it.
 
 ## INSTALATION
-As it is a Laravel Framework development with PHP, AngularJS and JQuery, you are gonna need to set up a Linux Server with Apache
-to run it, also configure the Composer on it.
+As it is a Laravel Framework development with PHP, AngularJS and JQuery, you are gonna need to set up a Linux Server with Apache to run it, also configure the Composer on it.
+
+1) Php >= 5.6.4
+2) Composer installed on the root directory of the project.
+3) Git installed and accessible on project root folder.
+4) Please clone the repo
+5) Please run 'composer update'.
+6) Sql database created for the project,
+7) Please create .env file from .env.example file and add the database settings.
+8) Please run 'php artisan key:generate' in terminal to generate unique key in .env file for project.
+9) Please give 'storage' directory write permissions.
 
 If need help configuring, contact us.
 
 # Donations,
-BCH: qzkvtcrs4vdh4v4s06nf9q8guxxyxqquzslnmfvk3c
-
-BTC: 1GkYGiCVS911VbHq1U4SvjS8NMTyYcLSpc
-
+ETH: 0x6a6e6c2fc98851d28ec448701e20132122e9d2e5
+BCH: 1EjDXgpcopDdyyF89dq3ejM8dBbGw5rjTY
+BTC: 3HGYVyEV2EdvpnyBt68rSKf3jUP4mGcFxi
 XMR: 47ugZPTSDhaexN3SrvH9KKYywewfVtEYhf5teQCt1cf6Ly5T5oMtkHPSgnF4gp39iRaSgJGf9fPhHTbMLvyab8FK8DSvTcC
-
 www.paypal.me/CelesteMultimediaDO
